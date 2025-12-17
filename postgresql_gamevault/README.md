@@ -66,11 +66,15 @@ Proje, hem hızlı kurulum hem de modüler inceleme için aşağıdaki yapıya g
 ```bash
 psql -U your_user -d your_db -f gamevault_queries.sql
 
+
+```
+---
 ##👤 Hazırlayan
 
 Ömer Yalçınkaya
 
-##🔗 Lisans
+---
+## 🔗 Lisans
 
 Bu proje, **YETGİM Data Analytics Bootcamp** kapsamında, iş zekası ve PostgreSQL eğitim amaçlı hazırlanmıştır.  
 Eğitim ve referans kullanımına yöneliktir.
