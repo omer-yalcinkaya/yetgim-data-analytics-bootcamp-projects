@@ -32,7 +32,7 @@ Sistem, veri tutarlılığını en üst düzeyde tutmak için **4 temel tablo** 
 - Tüm oyunları geliştirici isimleriyle birlikte listeleme.
 - Sadece belirli bir türe (Örn: RPG) ait oyunları puan bazlı filtreleme.
 - Fiyatı belirli bir limitin üzerindeki oyunları pahalıdan ucuza sıralama.
-- LIKE operatörü ile akıllı metin arama (İsminde "War" geçen oyunlar vb.).
+- LIKE operatörü ile akıllı metin arama (İsminde "World" geçen oyunlar vb.).
 - Veritabanı genelinde %10 toplu fiyat güncellemesi.
 
 ---
@@ -66,7 +66,6 @@ Proje, hem hızlı kurulum hem de modüler inceleme için aşağıdaki yapıya g
 ```bash
 psql -U your_user -d your_db -f gamevault_queries.sql
 
-
 ```
 ---
 ##👤 Hazırlayan
@@ -77,4 +76,4 @@ psql -U your_user -d your_db -f gamevault_queries.sql
 ## 🔗 Lisans
 
 Bu proje, **YETGİM Data Analytics Bootcamp** kapsamında, iş zekası ve PostgreSQL eğitim amaçlı hazırlanmıştır.  
-Eğitim ve referans kullanımına yöneliktir.
+
